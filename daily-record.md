@@ -1,16 +1,55 @@
+## 250718
+
+[ ] typescript 测试用例
+
+- 预期：Internal.Easy
+  - 时间：40min
+  - 困难：增加了测试用例之后没效果
+  - 结果：证明 typescript 规则有用
+- 实际：Internal
+  - 时间：
+  - 困难：
+  - 结果：
+
+[ ] identity 问题修复
+
+- 预期：Internal.Hard
+  - 时间：2h
+  - 困难：逻辑大改，暂时没有解决方案
+  - 结果：完全修复
+- 实际：Internal
+  - 时间：
+  - 困难：
+  - 结果：
+
+[ ] 全局 UI 样式修改
+
+- 预期：Internal.Easy
+  - 时间：40min
+  - 困难：颜色标准确认
+  - 结果：颜色修复
+- 实际：Internal
+  - 时间：
+  - 困难：
+  - 结果：
+
+[ ] 绩效评价: External.Common
+
 ## 250717
 
-[ ] identity问题修复
+[x] 周会: External.Common
 
-[ ] typescript测试用例
+[x] model 改造 CR 会: External.Common
+
+[x] DnD 和 ReactFlow 结合: Internal.Hard
 
 ## 250716
 
-[x] 写绩效评估
+[x] 写绩效评估 External.Common
 
-[x] 讨论 campaign diagnosis 需求
+[x] 讨论 campaign diagnosis 需求 External.Common
 
-[x] 修改isTextlike判断规则，对某些不会渲染成文本节点的字面量和标识符进行豁免，比如'', true, false, undefined, null, undefined，另外标识符和函数调用增加typescript类型判断
+[x] 修改 isTextlike 判断规则，对某些不会渲染成文本节点的字面量和标识符进行豁免，比如'', true, false, undefined, null, undefined，另外标识符和函数调用增加 typescript 类型判断
 
 - 预期：Internal.Hard
   - 时间：50min
@@ -18,7 +57,7 @@
   - 结果：完全修复
 - 实际：Internal
   - 时间：15:31-17:02 1h30min
-  - 困难：暂无，只修改了isTextLike判断
+  - 困难：暂无，只修改了 isTextLike 判断
   - 结果：修复得很好
 
 [x] flutter Listenable and MVVM pattern
