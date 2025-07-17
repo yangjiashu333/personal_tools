@@ -1,0 +1,72 @@
+{
+  "sample_date": [
+    {
+      "Type": "Internal.Input",
+      "Name": "xxxx",
+      "Expected": {
+        "Time": "xxx",
+        "Money": "xxx",
+        "Gained": "xx"
+      },
+      "Actual": {
+        "Time": "xxx",
+        "Money": "xxx",
+        "Gained": "xx"
+      }
+    },
+    {
+      "Type": "Internal.Output",
+      "Name": "xxxx",
+      "Expected": {
+        "Time": "xxx",
+        "Money": "xxx",
+        "Process": "xx",
+        "Result": "xx"
+      },
+      "Actual": {
+        "Time": "xxx",
+        "Money": "xxx",
+        "Process": "xx",
+        "Result": "xx"
+      },
+      "Before": {
+        "Confidence": "low/mid/hight"
+      },
+      "After": {
+        "Confidence": "low/mid/hight"
+      }
+    },
+    {
+      "Type": "External.Weakness",
+      "Name": "xxxx",
+      "Before": {
+        "Motion": "Sad/Angry/Stressed/Anxious"
+      },
+      "After": {
+        "Motion": "Sad/Angry/Stressed/Anxious/Relaxed"
+      }
+    },
+    {
+      "Type": "External.Strength",
+      "Name": "xxxx",
+      "Expected": {
+        "Time": "xxx",
+        "Money": "xxx",
+        "Process": "xxx",
+        "Result": "xx"
+      },
+      "Actual": {
+        "Time": "xxx",
+        "Money": "xxx",
+        "Process": "xxx",
+        "Result": "xx"
+      },
+      "Before": {
+        "Confidence": "low/mid/hight"
+      },
+      "After": {
+        "Confidence": "low/mid/hight"
+      }
+    }
+  ]
+}

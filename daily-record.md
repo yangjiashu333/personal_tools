@@ -1,16 +1,107 @@
+## 250724
+
+[x] error page ui - Daily
+
+[x] error 空对象问题 - Internal.Output
+
+- 信心：mid -> high
+- 预期：
+  - 时间：2hour
+  - 过程：账号登陆问题
+  - 结果：验证猜想是否正确
+- 实际：
+  - 时间：13:21-13:36 15min
+  - 过程：非常顺利
+  - 结果：猜想正确，Error对象被stringify之后变成了空对象
+
+[ ] flutter - Internal.Input
+
+- 预期：
+  - 时间：1hour
+  - 收获：熟悉flutter交互
+- 实际：
+  - 时间：16:43-
+  - 收获：
+
+## 250723
+
+[x] error 空对象问题 - Internal.Output
+
+- 信心：low -> mid
+- 预期：
+  - 时间：2hour
+  - 过程：定位不到问题
+  - 结果：试错
+- 实际：
+  - 时间：1.5hour
+  - 过程：比想像中顺利，出现了一个猜想
+  - 结果：发一个ppe验证猜想
+
+[x] 开组会 - Daily
+
+[x] 报价 - Daily
+
+## 250722
+
+[x] 技术栈确定 Internal.Hard
+
+- Fastify、JavaScript, PostgreSQL、MeiliSearch、MinIO
+- 页面基本布局完成
+
+[x] 绩效互评 External.Common
+
+[x] 看 diagnosis 需求 Internal.Easy
+
+[x] 确定 tiansun 的需求以及报价 External.Weakness
+
+## 250721
+
+[x] 全栈技术调研
+
+[x] merge request
+
+## 250718
+
+[x] typescript 测试用例
+
+- 预期：Internal.Easy
+  - 时间：40min
+  - 困难：增加了测试用例之后没效果
+  - 结果：证明 typescript 规则有用
+- 实际：Internal.Easy
+  - 时间：10:50-11:50 1hour
+  - 困难：技术路线需要更换
+  - 结果：暂时不做 ts 的部分
+
+[x] identity 问题修复
+
+- 预期：Internal.Hard
+  - 时间：2h
+  - 困难：逻辑大改，暂时没有解决方案
+  - 结果：完全修复
+- 实际：Internal.Easy
+  - 时间：14:57-16:26 1hour30min
+  - 困难：无困难 - 结果：顺利解决
+
+[x] 排期报价
+
+[x] feature block 项目 layout 2hour
+
 ## 250717
 
-[ ] identity问题修复
+[x] 周会: External.Common
 
-[ ] typescript测试用例
+[x] model 改造 CR 会: External.Common
+
+[x] DnD 和 ReactFlow 结合: Internal.Hard
 
 ## 250716
 
-[x] 写绩效评估
+[x] 写绩效评估 External.Common
 
-[x] 讨论 campaign diagnosis 需求
+[x] 讨论 campaign diagnosis 需求 External.Common
 
-[x] 修改isTextlike判断规则，对某些不会渲染成文本节点的字面量和标识符进行豁免，比如'', true, false, undefined, null, undefined，另外标识符和函数调用增加typescript类型判断
+[x] 修改 isTextlike 判断规则，对某些不会渲染成文本节点的字面量和标识符进行豁免，比如'', true, false, undefined, null, undefined，另外标识符和函数调用增加 typescript 类型判断
 
 - 预期：Internal.Hard
   - 时间：50min
@@ -18,7 +109,7 @@
   - 结果：完全修复
 - 实际：Internal
   - 时间：15:31-17:02 1h30min
-  - 困难：暂无，只修改了isTextLike判断
+  - 困难：暂无，只修改了 isTextLike 判断
   - 结果：修复得很好
 
 [x] flutter Listenable and MVVM pattern
