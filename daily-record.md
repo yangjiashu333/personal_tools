@@ -1,3 +1,99 @@
+## 250729
+
+[x] 读PRD和前期技术调研 - Internal.Input
+
+- 预期：
+  - 时间：1hour30min
+  - 收获：对怎么实现心里大概有数
+- 实际：
+  - 时间：10:30-11:16 46min
+  - 收获：这次设计更多的是UI的修改以及接口数据的修改，不需要更改业务逻辑，不涉及到model，所以复杂度没那么高。难的是如何写一篇tech design，能简单看懂
+
+[x] 学习GMV Max业务 - Daily
+
+[x] 学习flutter的UI - Internal.Input
+
+- 预期：
+  - 时间：1hour
+  - 收获：熟悉UI和交互逻辑
+- 实际：
+  - 时间：2hour
+  - 收获：学习了dart语言、flutter开发工具包，发现dart和JS其实很像，几乎现在涉及到的所有工作都可以用JS或者Dart完成
+
+## 250728
+
+[x] 定位ErrorBoundary问题 - Internal.Output
+
+- 信心：low -> mid
+- 预期：
+  - 时间：1hour30min
+  - 过程：比较不好意思问和讨论
+  - 结果：找到原因
+- 实际：
+  - 时间：1hour
+  - 过程：提问完后有收获
+  - 结果：上报的内容有问题
+
+[x] 找一个todoList的flutter项目随便做一做 - Internal.Input
+
+- 预期：
+  - 时间：2hour
+  - 收获：熟悉flutter编程
+- 实际：
+  - 时间：14:00-16:31
+  - 收获：学习了model设计的最佳实践，学习了riverpod的provider的原理，利用AI学习会事半功倍，要主动与AI交互
+
+[x] 学习了supabase - Internal.Input
+
+- 预期：
+  - 时间：40min
+  - 收获：熟悉flutter编程
+- 实际：
+  - 时间：1hour
+  - 收获：学习了supabase使用方法
+
+## 250725
+
+[x] 设计DTO - Internal.Output
+
+- 信心：high -> high
+- 预期：
+  - 时间：1hour40min
+  - 过程：出现纠结的情况
+  - 结果：所有对象的TDO都设计好
+- 实际：
+  - 时间：11:20-12:04 44min
+  - 过程：不太有纠结的情况
+  - 结果：所有请求的DTO都设计好了
+
+[x] 写request util - Internal.Output
+
+- 信心：low -> mid
+- 预期：
+  - 时间：50min
+  - 过程：出现纠结的情况
+  - 结果：设计好前端api
+- 实际：
+  - 时间：2hour
+  - 过程：使用AI能够得到最佳实践，但是时间成本也比较高
+  - 结果：顺利实现
+
+[x] 写UserModel - Internal.Output
+
+- 信心：mid -> high
+- 预期：
+  - 时间：50min
+  - 过程：出现纠结的情况，但是可能还是会纠结，要考虑时间成本，不要妄图完美
+  - 结果：设计一个初版本的model，
+- 实际：
+  - 时间：10min
+  - 过程：没有任何纠结
+  - 结果：设计完成
+
+[x] 修改登录页 - Daily
+
+[x] 完成用户管理页面 - Daily
+
 ## 250724
 
 [x] error page ui - Daily
@@ -14,14 +110,14 @@
   - 过程：非常顺利
   - 结果：猜想正确，Error对象被stringify之后变成了空对象
 
-[ ] flutter - Internal.Input
+[x] flutter - Internal.Input
 
 - 预期：
   - 时间：1hour
   - 收获：熟悉flutter交互
 - 实际：
-  - 时间：16:43-
-  - 收获：
+  - 时间：16:43-17:31 50min
+  - 收获：草草过了一遍基本的flutter功能，没有什么实质性收获，感觉需要将flutter提升成Internal.Output类型的任务
 
 ## 250723
 
